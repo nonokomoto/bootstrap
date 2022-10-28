@@ -8,3 +8,10 @@
     height: 400px;
     width: 100%;
 }
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+    background-color: #212529;
+  }
